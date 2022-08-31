@@ -31,7 +31,7 @@
 }
 
 
-@media screen and (max-width:515px) {
+@media screen and (max-width:400px) {
     .box{
         background-color: black;
         height: 300px;
