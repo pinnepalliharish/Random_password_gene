@@ -1,0 +1,52 @@
+.box{
+    background-color: black;
+    height: 400px;
+    width: 800px;
+    margin-top: 12%;
+    margin-left: 24%;
+    color: aliceblue;
+}
+
+.objets{
+    position: absolute;
+    margin-top: 7%;
+    margin-left: 5%;
+}
+
+#output{
+    color: aliceblue;
+    margin-bottom: 0;
+}
+
+.box h2{
+    position:absolute;
+    margin-top: 25px;
+    margin-left: 5%;
+}
+
+.box h3{
+    position:absolute;
+    margin-top: 50px;
+    margin-left: 5%;
+}
+
+
+@media screen and (max-width:515px) {
+    .box{
+        background-color: black;
+        height: 300px;
+        width: 420px;
+        margin-top: 12%;
+        margin-left: 10%;
+        color: aliceblue;
+    }
+    .objets{
+        position: absolute;
+        margin-top: 25%;
+        margin-left: 5%;
+    }
+    #output{
+        color: aliceblue;
+        margin-top: 12%;
+    }
+}
